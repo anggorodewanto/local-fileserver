@@ -15,9 +15,9 @@ import (
 )
 
 // Version information
-const (
+var (
 	AppName    = "Local File Server"
-	AppVersion = "1.0.0"
+	AppVersion = "1.0.0" // This will be overridden during build with -X flag
 )
 
 // Configuration for the file server
